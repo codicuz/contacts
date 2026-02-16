@@ -69,7 +69,7 @@ fun ContactDetails(contact: Contact) {
         )
 
         Text(
-            text = "FirstComposeProject",
+            text = stringResource(R.string.app_title),
             fontSize = 12.sp,
             color = Color.Gray,
             modifier = Modifier
@@ -206,7 +206,7 @@ fun InfoRow(label: String, value: String) {
 
 @Preview(showBackground = true)
 @Composable
-fun ContactDetailsPreview1() {
+private fun ContactDetailsPreview1() {
     Surface(color = Color.White) {
         ContactDetails(
             contact = Contact(
@@ -225,7 +225,7 @@ fun ContactDetailsPreview1() {
 
 @Preview(showBackground = true)
 @Composable
-fun ContactDetailsPreview2() {
+private fun ContactDetailsPreview2() {
     Surface(color = Color.White) {
         ContactDetails(
             contact = Contact(

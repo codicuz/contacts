@@ -1,5 +1,8 @@
 package ru.codicus.contacts
 
+import androidx.compose.runtime.Immutable
+
+@Immutable
 data class Contact(
     val name: String,
     val surname: String? = null,

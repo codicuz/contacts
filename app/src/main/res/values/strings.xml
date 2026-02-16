@@ -3,5 +3,6 @@
     <string name="phone">Телефон</string>
     <string name="address">Адрес</string>
     <string name="email">E-mail</string>
+    <string name="app_title">FirstComposeProject</string>
 
 </resources>
